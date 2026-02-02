@@ -10,7 +10,12 @@ function subtract(a,b){
 
 }
 
+function multiply(a,b){
+    return a*b
+}
+
 add(2,5)
 add(10,25)
 add(30,50)
 sub(10,3)
+multiply(10,2)
