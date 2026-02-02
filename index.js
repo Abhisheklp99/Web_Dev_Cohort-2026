@@ -10,7 +10,16 @@ function subtract(a,b){
 
 }
 
+function multiply(a,b){
+    if((a < 0 || b<0)) throw new Error('no neg allowed')
+    return a*b
+}
+
 add(2,5)
 add(10,25)
 add(30,50)
 sub(10,3)
+multiply(10,2)
+multiply(35,2)
+multiply(35,2)
+multiply(65,2)
